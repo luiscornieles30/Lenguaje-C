@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main() {
-    printf("Práctica de Lenguaje C\n");
-    float hola;
-    hola = 3.14;
-    
+    char texto[50];
+    printf("Ingrese el siguente texto ");
+    scanf("%s", texto);
+    printf("El texto ingresado es: %s", texto);
     return 0;
 }
